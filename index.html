@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Fênix | Ebook Gratuito</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(120deg, #000000, #1a1a1a);
+            color: #fff;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .content, .form-container {
+            flex: 1;
+            padding: 1.5rem;
+            box-sizing: border-box;
+        }
+        .content h1 {
+            font-size: 2.5rem;
+            color: #f27a2f;
+        }
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .form-container {
+            background: #222;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input[type="text"], input[type="email"] {
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        button {
+            padding: 0.75rem;
+            background: #f27a2f;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #d9661f;
+        }
+        @media(max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Baixe Agora o Ebook Grátis</h1>
+            <p>Descubra como reprogramar sua mente, blindar seus pensamentos e ativar o Protocolo Fênix: um passo a passo estratégico para vencer seus bloqueios internos e começar a gerar dinheiro online com inteligência emocional e atitude real.</p>
+        </div>
+        <div class="form-container">
+            <form>
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <button type="submit">Quero Receber o Ebook</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
